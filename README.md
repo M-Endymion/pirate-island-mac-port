@@ -2,7 +2,7 @@
 
 **A native macOS port of the classic 1989–1996 text adventure** by John H. Doolittle.
 
-![Game Screenshot](screenshots/gameplay.png)
+![Game Screenshot](screenshots/title_screen.png)
 
 ## Features
 - Fully playable native macOS `.app` (double-click to run)
@@ -12,8 +12,7 @@
 - Clean exit with credits screen
 
 ## Screenshots
-![Title Screen](screenshots/title.png)
-![Gameplay](screenshots/gameplay.png)
+![Title Screen](screenshots/title_screen.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Gameplay](screenshots/gameplay.png)
 
 ## How to Play
 1. Download the latest `Pirate Island.app` from [Releases](https://github.com/M-Endymion/pirate-island-mac-port/releases)
