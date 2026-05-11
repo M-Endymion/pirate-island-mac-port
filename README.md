@@ -19,6 +19,66 @@
 2. Double-click to launch
 3. Type commands like `GO NORTH`, `GET FISH`, `REVEAL ORANGES`, `SAVE GAME`, etc.
 
+### Island Map
+
+```ascii
+                          PIRATE ISLAND
+                               ▲
+                               N
+   ┌───────────────────────────┴─────────────────────────────────┐
+   │                                                             │
+   │   WOODS (11) ── EAST ── UPPER BEACH (10)                    │
+   │      │                       │                              │
+   │   HILLSIDE (12)         SANDY BEACH (7) ── NORTH ── SEA (5) │
+   │      │                       │                              │
+   │   HILLTOP (13)         ROCKY BEACH (8)                      │
+   │      │                       │                              │
+   │  PIRATE'S FORT (14) ── TIDE POOL (9)                        │
+   │                                                             │
+   └───────────────────────┬─────────────────────────────────────┘
+                           │
+                     MAIN DECK (3)
+                           │
+                    ┌──────┴──────┐
+                    │             │
+               FOOD LOCKER (1)  LAUNDRY (2)
+                    │             │
+               CODE ROOM (4)   ARMORY (6)
+                    │
+               PASSAGEWAY (18)
+                    │
+               SICK BAY (19) ── BRIG (20) ── TOOL ROOM (21)
+```
+
+### Room Quick Reference
+```markdown
+### Room Quick Reference
+
+| Room # | Location              | Key Objects / Notes                  |
+|--------|-----------------------|--------------------------------------|
+| 1      | Food Locker           | Oranges (reveal)                     |
+| 2      | Ship's Laundry        | Clothes (reveal)                     |
+| 3      | Main Deck             | Cannon*                              |
+| 4      | Code Room             | Secret messages                      |
+| 5      | Open Sea              | —                                    |
+| 6      | Armory                | Sword (reveal)                       |
+| 7      | Sandy Beach           | —                                    |
+| 8      | Rocky Beach           | —                                    |
+| 9      | Tide Pool             | Fish                                 |
+| 10     | Upper Beach           | —                                    |
+| 11     | Woods                 | Branch (reveal) + Parrot             |
+| 12     | Hillside              | —                                    |
+| 13     | Hilltop               | Hermit                               |
+| 14     | Pirate's Fort         | —                                    |
+| 15     | Stockade              | Gunbox + Key (reveal)                |
+| 16     | Campfire Area         | Pirates + Coals                      |
+| 17     | Stockade Gate         | Prisoners + Lock                     |
+| 18     | Passageway            | —                                    |
+| 19     | Sick Bay              | Quinine (reveal)                     |
+| 20     | Brig (start)          | Rat (reveal)                         |
+| 21     | Tool Room             | Shovel (reveal)                      |
+```
+
 ## Credits
 **Original Game**  
 Pirate Island by John H. Doolittle  
