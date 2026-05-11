@@ -11,13 +11,33 @@
 - Working Save / Restore Game
 - Clean exit with credits screen
 
-## Screenshots
-![Title Screen](screenshots/title_screen.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Gameplay](screenshots/gameplay.png)
-
 ## How to Play
 1. Download the latest `Pirate Island.app` from [Releases](https://github.com/M-Endymion/pirate-island-mac-port/releases)
-2. Double-click to launch
-3. Type commands like `GO NORTH`, `GET FISH`, `REVEAL ORANGES`, `SAVE GAME`, etc.
+2. Unzip it and move Pirate Island.app to your Applications folder (or anywhere you like).
+3. Double-click to launch
+4. Type commands like `GO NORTH`, `GET FISH`, `REVEAL ORANGES`, `SAVE GAME`, etc.
+
+### Commands are given in simple **VERB + OBJECT** format:
+- GO NORTH (or just N)
+- GET FISH
+- REVEAL ORANGES
+- WEAR CLOTHES
+- SHARPEN BRANCH
+- GIVE FISH (to the hermit)
+- SAVE GAME / RESTORE GAME
+- QUIT
+
+### Tips from the original game:
+Some objects appear as SOMETHING* or scrambled words (e.g. CNBAHR*). Use REVEAL to make them usable.
+Pay attention to the parrot’s hints — they appear at specific turn counts.
+You have 300 turns. Save often!
+
+### Controls:
+- Arrow keys or N/S/E/W/U/D for movement
+- I or INVENTORY to check what you’re carrying
+- Press any key to continue after messages
+
+
 
 ### Island Map
 
@@ -78,6 +98,10 @@
 | 20     | Brig (start)          | Rat (reveal)                         |
 | 21     | Tool Room             | Shovel (reveal)                      |
 ```
+
+
+## Screenshots
+![Title Screen](screenshots/title_screen.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Gameplay](screenshots/gameplay.png)
 
 ## Credits
 **Original Game**  
