@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/M-Endymion/pirate-island-mac-port/main/thumbnail-pirate.png" alt="Pirate Island macOS Port Banner" />
+</div>
+
+<br>
+
 # Pirate Island macOS Port
 
 **A native macOS port of the classic 1989–1996 text adventure** by John H. Doolittle.
