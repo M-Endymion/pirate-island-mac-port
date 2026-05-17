@@ -1,27 +1,34 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/M-Endymion/pirate-island-mac-port/main/thumbnail-pirate.png" alt="Pirate Island macOS Port Banner" />
+  <img src="https://raw.githubusercontent.com/M-Endymion/pirate-island-mac-port/main/thumbnail-pirate.png" alt="Pirate Island macOS Port" width="100%" />
 </div>
 
 <br>
 
 # Pirate Island macOS Port
 
-**A native macOS port of the classic 1989–1996 text adventure** by John H. Doolittle.
+**Native macOS port of the classic 1989–1996 text adventure** by John H. Doolittle.
 
-![Game Screenshot](screenshots/title_screen.png)
+![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![QB64](https://img.shields.io/badge/QB64-000000?style=for-the-badge&logo=visualbasic&logoColor=white)
+![Retro](https://img.shields.io/badge/Retro%20Computing-FF6600?style=for-the-badge)
+
+---
 
 ## Features
-- Fully playable native macOS `.app` (double-click to run)
-- Proper macOS save folder (`~/Library/Application Support/PirateIsland/`)
+
+- Fully playable native `.app` (double-click to run)
+- Proper macOS save location (`~/Library/Application Support/PirateIsland/`)
 - Custom icon and window title
 - Working Save / Restore Game
 - Clean exit with credits screen
+- Arrow key movement support
 
 ## How to Play
 1. Download the latest `Pirate Island.app` from [Releases](https://github.com/M-Endymion/pirate-island-mac-port/releases)
 2. Unzip it and move Pirate Island.app to your Applications folder (or anywhere you like).
 3. Double-click to launch
-4. Type commands like `GO NORTH`, `GET FISH`, `REVEAL ORANGES`, `SAVE GAME`, etc.
+
+**Classic commands:** `GO NORTH`, `GET FISH`, `REVEAL ORANGES`, `SAVE GAME`, etc.
 
 ### Commands are given in simple **VERB + OBJECT** format:
 - GO NORTH (or just N)
@@ -78,8 +85,6 @@ You have 300 turns. Save often!
 
 ### Room Quick Reference
 ```markdown
-### Room Quick Reference
-
 | Room # | Location              | Key Objects / Notes                  |
 |--------|-----------------------|--------------------------------------|
 | 1      | Food Locker           | Oranges (reveal)                     |
@@ -109,27 +114,41 @@ You have 300 turns. Save often!
 ## Screenshots
 ![Title Screen](screenshots/title_screen.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Gameplay](screenshots/gameplay.png)
 
+---
+
+## About the Project
+
+This is a preservation port of a rare educational text adventure originally used in a university psychology class.
+
+**Built with QB64** (Phoenix Edition) for native macOS performance.
+
+---
+
+## About the Author
+
+**Jason Ray (M-Endymion)**
+
+IT Professional by day • Retro computing & scripting enthusiast by night.
+
+This project showcases my ability to:
+- Port and modernize legacy code
+- Build user-friendly applications
+- Work with low-level tools and bundling
+
+Great example of my attention to detail and passion for learning new tools.
+
+- **LinkedIn**: [Jason Ray](https://www.linkedin.com/in/jason-ray-mecm/)
+- **Open to opportunities**
+
+**Last Updated:** May 17, 2026
+
+**License:** Non-commercial preservation port. Original game credit to John H. Doolittle.
+
+---
+
 ## Credits
 **Original Game**  
 Pirate Island by John H. Doolittle  
 Used in his "Scientific Thinking in Psychology" class at California State University.  
-Source code released in 2023 to the [IF Archive](https://www.ifarchive.org/).
-
-**macOS Port**  
-Created by [M-Endymion](https://github.com/M-Endymion) using QB64.
-
-## Building from Source
-- Open `pirate_island_qb64.bas` in QB64 (Phoenix Edition recommended)
-- Compile → Make EXE / .app only
-- Create the `.app` bundle structure (see `BUILD.md` if added)
-
-## License
-This is a non-commercial historical/educational port. The original source was publicly released for preservation. Please credit John H. Doolittle when sharing.
-
-## Links
-- Original source: [IF Archive](https://www.ifarchive.org/indexes/if-archive/games/source/basic/)
-- QB64: https://qb64phoenix.com/
 
 ---
-
-**Made with ❤️ for retro computing preservation**
