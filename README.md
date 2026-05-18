@@ -6,7 +6,7 @@
 
 # Pirate Island macOS Port
 
-**Native macOS port of the classic 1989–1996 text adventure** by John H. Doolittle.
+A native macOS port of the classic 1990s text adventure game originally created by John H. Doolittle.
 
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
 ![QB64](https://img.shields.io/badge/QB64-000000?style=for-the-badge&logo=visualbasic&logoColor=white)
@@ -16,12 +16,11 @@
 
 ## Features
 
-- Fully playable native `.app` (double-click to run)
-- Proper macOS save location (`~/Library/Application Support/PirateIsland/`)
+- Double-clickable `.app` bundle
+- Proper macOS save folder (`~/Library/Application Support/PirateIsland/`)
 - Custom icon and window title
-- Working Save / Restore Game
-- Clean exit with credits screen
-- Arrow key movement support
+- Working save/load system
+- Arrow key support
 
 ## How to Play
 1. Download the latest `Pirate Island.app` from [Releases](https://github.com/M-Endymion/pirate-island-mac-port/releases)
@@ -118,9 +117,12 @@ You have 300 turns. Save often!
 
 ## About the Project
 
-This is a preservation port of a rare educational text adventure originally used in a university psychology class.
+This is a preservation port built with **QB64** (Phoenix Edition). It brings an old educational text adventure back to modern macOS.
 
-**Built with QB64** (Phoenix Edition) for native macOS performance.
+## Credits
+**Original Game**  
+Pirate Island by John H. Doolittle  
+Used in his "Scientific Thinking in Psychology" class at California State University.  
 
 ---
 
@@ -130,25 +132,10 @@ This is a preservation port of a rare educational text adventure originally used
 
 IT Professional by day • Retro computing & scripting enthusiast by night.
 
-This project showcases my ability to:
-- Port and modernize legacy code
-- Build user-friendly applications
-- Work with low-level tools and bundling
-
-Great example of my attention to detail and passion for learning new tools.
-
 - **LinkedIn**: [Jason Ray](https://www.linkedin.com/in/jason-ray-mecm/)
-- **Open to opportunities**
 
-**Last Updated:** May 17, 2026
+**Last Updated:** May 18, 2026
 
 **License:** Non-commercial preservation port. Original game credit to John H. Doolittle.
-
----
-
-## Credits
-**Original Game**  
-Pirate Island by John H. Doolittle  
-Used in his "Scientific Thinking in Psychology" class at California State University.  
 
 ---
